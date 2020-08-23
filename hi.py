@@ -3,7 +3,7 @@
 
 class HelloWorld():
     
-    @property
+
     def hello_world(self):
       print("Hello world!")
       
@@ -11,4 +11,4 @@ class HelloWorld():
     
 hello_World = HelloWorld()
 
-hello_World.hello_world
+hello_World.hello_world()
